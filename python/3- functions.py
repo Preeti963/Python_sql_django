@@ -3,39 +3,39 @@
 - reduce the  code repetition makes the organized and readable
 """
 # basic function
-# def greet():
-#     print("hello, welcome to python functions!")
-# greet()
+def greet():
+    print("hello, welcome to python functions!")
+greet()
 
 # function with arguments
-# def greet_user(name):
-#     print("hello",name)
-# greet_user("preeti")
+def greet_user(name):
+    print("hello",name)
+greet_user("preeti")
 
 #function with multiple arguments
-# def add_numbers(a,b):
-#     print("Sum is:",a+b)
-# add_numbers(5,3)
+def add_numbers(a,b):
+    print("Sum is:",a+b)
+add_numbers(5,3)
 
 #function with return value
-# def multiply(a,b):
-#     return a*b
-# result = multiply(4,5)
-# print("result:",result)
+def multiply(a,b):
+    return a*b
+result = multiply(4,5)
+print("result:",result)
 
 #default arguments
-# def student_info(name,course="python"):
-#     print("Name:",name)
-#     print("Course:",course)
+def student_info(name,course="python"):
+    print("Name:",name)
+    print("Course:",course)
 
-# student_info("Sushila")
-# student_info("Sushila""\ttamang")
+student_info("Sushila")
+student_info("Sushila""\ttamang")
 
 # *args(multiple values)
-# def total_marks(*marks):
-#     total = sum(marks)
-#     print("Total Marks:",total)
-# total_marks(80,75,90)
+def total_marks(*marks):
+    total = sum(marks)
+    print("Total Marks:",total)
+total_marks(80,75,90)
 
 #**kwargs(key-valuse Pairs)
 def user_details(**info):
